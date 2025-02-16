@@ -14,10 +14,10 @@ interface AuroraTextProps
 export function AuroraText({
   className,
   children,
-  as: Component = "span",
+  as: Component = "div",
   ...props
 }: AuroraTextProps) {
-  const MotionComponent = motion.create(Component);
+  const MotionComponent = motion(Component);
 
   return (
     <MotionComponent
