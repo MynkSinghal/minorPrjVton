@@ -1,0 +1,22 @@
+@keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animate-fade-in {
+    animation: fade-in 0.5s ease-out forwards;
+  }
+
+:root {
+  --color-1: 45 100% 60%;  /* Golden yellow */
+  --color-2: 40 100% 50%;  /* Deep yellow */
+  --color-3: 50 100% 55%;  /* Light yellow */
+  --color-4: 35 100% 65%;  /* Warm yellow */
+  --color-5: 55 100% 60%;  /* Bright yellow */
+}
